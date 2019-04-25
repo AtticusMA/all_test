@@ -1,4 +1,4 @@
-package cn.leyizuo.www;
+package cn.leyizuo.www.ioc;
 
 import cn.leyizuo.www.ioc.core.IOCApplicationContext;
 import cn.leyizuo.www.ioc.modular.controller.UserController;

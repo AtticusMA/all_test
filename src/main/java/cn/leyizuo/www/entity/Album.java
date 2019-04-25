@@ -5,7 +5,8 @@
 
 package cn.leyizuo.www.entity;
 
-import functionProgram.Performance;
+
+import cn.leyizuo.www.functionProgram.Performance;
 
 import java.util.ArrayList;
 import java.util.List;
