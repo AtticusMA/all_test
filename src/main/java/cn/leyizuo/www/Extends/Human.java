@@ -5,13 +5,16 @@ public class Human {
     public String getName(){
         return this.name;
     }
+    public void happy(){ System.out.println(this.getName()+"会睡觉");}
     public void sleep() {
         System.out.println("Human sleep..");
     }
 
     public static void main(String[] args) {
-        Human h = new Male();// 向上转型
+        Human h = new Male();// 向上转型，真正实现的子类;子类没有的方法会使用父类
         h.sleep();
+        h.happy();
+        ((Male) h).speak();
         System.out.println(h.getName());
     }
 }
