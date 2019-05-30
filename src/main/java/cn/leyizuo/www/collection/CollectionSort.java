@@ -41,7 +41,7 @@ public class CollectionSort {
 //        }
 
         Map<String, Integer> us = new HashMap<String, Integer>();
-        // Map<String, Integer> us = new TreeMap<String, Integer>();
+        // MapTest<String, Integer> us = new TreeMap<String, Integer>();
         us.put("f1", 12);
         us.put("f2", 13);
         us.put("f5", 22);
