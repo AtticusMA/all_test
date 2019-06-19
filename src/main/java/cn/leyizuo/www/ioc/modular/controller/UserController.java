@@ -3,7 +3,7 @@ package cn.leyizuo.www.ioc.modular.controller;
 import cn.leyizuo.www.ioc.annotation.CustomAutowired;
 import cn.leyizuo.www.ioc.annotation.CustomController;
 import cn.leyizuo.www.ioc.annotation.Value;
-import cn.leyizuo.www.ioc.modular.service.IUserService;
+import cn.leyizuo.www.service.IUserService;
 
 /**
  * @Author： qiusheng

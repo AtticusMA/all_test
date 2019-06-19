@@ -1,4 +1,4 @@
-package cn.leyizuo.www.Extends;
+package cn.leyizuo.www.extend;
 
 public class Human {
     String name = "Human";

@@ -141,7 +141,7 @@ public class IOCApplicationContext {
                             if(list.size()==1){
                                 //Class implClass = (Class)list.get(0);
                                 //为什么这个会报错呢
-                                //Can not set cn.leyizuo.www.ioc.modular.mapping.IUserMapping field cn.leyizuo.www.ioc.modular.service.impl.UserServiceImpl.iUserMapping to java.lang.Class
+                                //Can not set cn.leyizuo.www.mapping.IUserMapping field cn.leyizuo.www.service.Impl.UserServiceImpl.iUserMapping to java.lang.Class
                                 f.set(o,list.get(0));
                                 //注入一个类就要递归的依赖注入类的属性类
                                 addAutowiredToField(f.getType());

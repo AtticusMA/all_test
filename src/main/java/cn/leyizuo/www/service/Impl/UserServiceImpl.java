@@ -1,9 +1,9 @@
-package cn.leyizuo.www.ioc.modular.service.impl;
+package cn.leyizuo.www.service.Impl;
 
 import cn.leyizuo.www.ioc.annotation.CustomAutowired;
 import cn.leyizuo.www.ioc.annotation.CustomService;
-import cn.leyizuo.www.ioc.modular.mapping.IUserMapping;
-import cn.leyizuo.www.ioc.modular.service.IUserService;
+import cn.leyizuo.www.mapping.IUserMapping;
+import cn.leyizuo.www.service.IUserService;
 
 /**
  * @Author： qiusheng

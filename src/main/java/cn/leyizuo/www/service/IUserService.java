@@ -1,11 +1,11 @@
-package cn.leyizuo.www.ioc.modular.mapping;
+package cn.leyizuo.www.service;
 
 /**
  * @Author： qiusheng
- * @Date： 2019/4/24 14:02
+ * @Date： 2019/4/24 14:01
  * @DESCRIPTION：
  * @EMAIL： atticusma@hotmail.com
  */
-public interface IUserMapping {
+public interface IUserService {
     String login();
 }

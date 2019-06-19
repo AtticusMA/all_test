@@ -1,7 +1,7 @@
-package cn.leyizuo.www.ioc.modular.mapping.impl;
+package cn.leyizuo.www.mapping.impl;
 
 import cn.leyizuo.www.ioc.annotation.CustomMapping;
-import cn.leyizuo.www.ioc.modular.mapping.IUserMapping;
+import cn.leyizuo.www.mapping.IUserMapping;
 
 /**
  * @Author： qiusheng

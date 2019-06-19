@@ -1,11 +1,12 @@
-package cn.leyizuo.www.proxy.service.Impl;
+package cn.leyizuo.www.service.Impl;
 
-import cn.leyizuo.www.proxy.service.IUser;
+import cn.leyizuo.www.service.IUser;
 
 public class UserImpl implements IUser {
     @Override
-    public void save() {
+    public String save() {
         System.out.println("保存");
+        return "已经成功保存";
     }
 
     @Override
